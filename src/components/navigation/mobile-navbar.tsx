@@ -44,22 +44,6 @@ const MobileNavbar = () => {
                         </Button>
                     </SheetClose>
                     <div className="flex flex-col items-start w-full py-2 mt-10">
-                        <div className="flex items-center justify-evenly w-full space-x-2">
-                            {isSignedIn ? (
-                                <Link href="/dashboard" className={buttonVariants({ variant: "outline", className: "w-full" })}>
-                                    Dashboard
-                                </Link>
-                            ) : (
-                                <>
-                                    <Link href="/auth/sign-in" className={buttonVariants({ variant: "outline", className: "w-full" })}>
-                                        Sign In
-                                    </Link>
-                                    <Link href="/auth/sign-up" className={buttonVariants({ className: "w-full" })}>
-                                        Sign Up
-                                    </Link>
-                                </>
-                            )}
-                        </div>
                         <ul className="flex flex-col items-start w-full mt-6">
                             <Accordion type="single" collapsible className="!w-full">
                                 {NAV_LINKS.map((link) => (
@@ -78,7 +62,6 @@ const MobileNavbar = () => {
                                                     >
                                                         {link.menu.map((menuItem) => (
                                                             <ListItem key={menuItem.title} title={menuItem.title} href={menuItem.href} icon={menuItem.icon}>
-                                                                {menuItem.tagline}
                                                             </ListItem>
                                                         ))}
                                                     </ul>

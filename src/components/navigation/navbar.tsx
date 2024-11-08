@@ -85,7 +85,6 @@ const Navbar = () => {
                                                                 href={menuItem.href}
                                                                 icon={menuItem.icon}
                                                             >
-                                                                {menuItem.tagline}
                                                             </ListItem>
                                                         ))}
                                                     </ul>
@@ -105,22 +104,6 @@ const Navbar = () => {
 
                     </div>
 
-                    <div className="hidden lg:flex items-center">
-                        {user ? (
-                            <div className="flex items-center">
-                            </div>
-                        ) : (
-                            <div className="flex items-center gap-x-4">
-                                <Link href="/auth/sign-in" className={buttonVariants({ size: "sm", variant: "ghost" })}>
-                                    Sign In
-                                </Link>
-                                <Link href="/auth/sign-up" className={buttonVariants({ size: "sm", })}>
-                                    Get Started
-                                    <ZapIcon className="size-3.5 ml-1.5 text-orange-500 fill-orange-500" />
-                                </Link>
-                            </div>
-                        )}
-                    </div>
 
                     <MobileNavbar />
 

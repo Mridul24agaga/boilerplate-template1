@@ -3,30 +3,26 @@ import { HelpCircleIcon, LineChartIcon, Link2Icon, LockIcon, NewspaperIcon, QrCo
 export const NAV_LINKS = [
     {
         title: "Features",
-        href: "/features",
+        href: "",
         menu: [
             {
-                title: "Link Shortening",
-                tagline: "Shorten links and track their performance.",
+                title: "Project Management",
                 href: "/features/link-shortening",
                 icon: Link2Icon,
             },
             {
-                title: "Password Protection",
-                tagline: "Secure your links with a password.",
-                href: "/features/password-protection",
+                title: "Form Builder",
+                href: "/",
                 icon: LockIcon,
             },
             {
                 title: "Advanced Analytics",
-                tagline: "Gain insights into who is clicking your links.",
-                href: "/features/analytics",
+                href: "/",
                 icon: LineChartIcon,
             },
             {
-                title: "Custom QR Codes",
-                tagline: "Use QR codes to reach your audience.",
-                href: "/features/qr-codes",
+                title: "Custom your projects",
+                href: "/",
                 icon: QrCodeIcon,
             },
         ],
@@ -38,24 +34,6 @@ export const NAV_LINKS = [
     {
         title: "Enterprise",
         href: "/enterprise",
-    },
-    {
-        title: "Resources",
-        href: "/resources",
-        menu: [
-            {
-                title: "Blog",
-                tagline: "Read articles on the latest trends in tech.",
-                href: "/resources/blog",
-                icon: NewspaperIcon,
-            },
-            {
-                title: "Help",
-                tagline: "Get answers to your questions.",
-                href: "/resources/help",
-                icon: HelpCircleIcon,
-            },
-        ]
     },
     {
         title: "Changelog",

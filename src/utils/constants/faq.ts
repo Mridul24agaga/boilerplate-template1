@@ -7,7 +7,7 @@ export const FAQ = [
     {
         id: "item-2",
         question: "What features does the software offer?",
-        answer: "Our link management software offers features like link shortening, click tracking, customizable branded links, and AI-powered suggestions.",
+        answer: "Our project management software offers features like project shortening, click tracking, and AI-powered suggestions.",
     },
     {
         id: "item-3",
@@ -26,8 +26,8 @@ export const FAQ = [
     },
     {
         id: "item-6",
-        question: "Can I track my link clicks?",
-        answer: "Yes, our software allows you to track clicks on your links, providing insights into user engagement and demographics.",
+        question: "Can I track my project?",
+        answer: "Yes, our software allows you to track clicks on your project, providing insights into user engagement and demographics.",
     },
     {
         id: "item-7",

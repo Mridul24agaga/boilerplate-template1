@@ -40,9 +40,9 @@ const HomePage = async () => {
                             </span>
                         </h1>
                         <p className="mb-12 text-lg tracking-tight text-muted-foreground md:text-xl text-balance">
-                            Effortlessly streamline your link management with Linkify.
+                            Effortlessly streamline your project management with Insightify.
                             <br className="hidden md:block" />
-                            <span className="hidden md:block">Shorten, track, and organize all your links in one place.</span>
+                            <span className="hidden md:block">Track, and organize all your projects in one place.</span>
                         </p>
                         <div className="flex items-center justify-center whitespace-nowrap gap-4 z-50">
                             <Button asChild>
@@ -56,23 +56,6 @@ const HomePage = async () => {
 
                     <AnimationContainer delay={0.2} className="relative pt-20 pb-20 md:py-32 px-2 bg-transparent w-full">
                         <div className="absolute md:top-[10%] left-1/2 gradient w-3/4 -translate-x-1/2 h-1/4 md:h-1/3 inset-0 blur-[5rem] animate-image-glow"></div>
-                        <div className="-m-2 rounded-xl p-2 ring-1 ring-inset ring-foreground/20 lg:-m-4 lg:rounded-2xl bg-opacity-50 backdrop-blur-3xl">
-                            <BorderBeam
-                                size={250}
-                                duration={12}
-                                delay={9}
-                            />
-                            <Image
-                                src="/assets/dashboard-dark.svg"
-                                alt="Dashboard"
-                                width={1200}
-                                height={1200}
-                                quality={100}
-                                className="rounded-md lg:rounded-xl bg-foreground/10 ring-1 ring-border"
-                            />
-                            <div className="absolute -bottom-4 inset-x-0 w-full h-1/2 bg-gradient-to-t from-background z-40"></div>
-                            <div className="absolute bottom-0 md:-bottom-8 inset-x-0 w-full h-1/4 bg-gradient-to-t from-background z-50"></div>
-                        </div>
                     </AnimationContainer>
                 </div>
             </MaxWidthWrapper >
@@ -112,10 +95,10 @@ const HomePage = async () => {
                     <div className="flex flex-col w-full items-center lg:items-center justify-center py-8">
                         <MagicBadge title="Features" />
                         <h2 className="text-center lg:text-center text-3xl md:text-5xl !leading-[1.1] font-medium font-heading text-foreground mt-6">
-                            Manage Links Like a Pro
+                            Manage Projects Like a Pro
                         </h2>
                         <p className="mt-4 text-center lg:text-center text-lg text-muted-foreground max-w-lg">
-                            Linkify is a powerful link management tool that helps you shorten, track, and organize all your links in one place.
+                            Insighty is a powerful project management tool that helps you shorten, track, and organize all your projects in one place.
                         </p>
                     </div>
                 </AnimationContainer>
@@ -177,7 +160,7 @@ const HomePage = async () => {
                             Choose a plan that works for you
                         </h2>
                         <p className="mt-4 text-center lg:text-center text-lg text-muted-foreground max-w-lg">
-                            Get started with Linkify today and enjoy more features with our pro plans.
+                            Get started with Insightify today and enjoy more features with our pro plans.
                         </p>
                     </div>
                 </AnimationContainer>
@@ -205,7 +188,7 @@ const HomePage = async () => {
                             What our users are saying
                         </h2>
                         <p className="mt-4 text-center lg:text-center text-lg text-muted-foreground max-w-lg">
-                            Here&apos;s what some of our users have to say about Linkify.
+                            Here&apos;s what some of our users have to say about Insightify.
                         </p>
                     </div>
                 </AnimationContainer>
@@ -306,7 +289,7 @@ const HomePage = async () => {
                             Step into the future of content management and analytics
                             </h2>
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
-                                Experience the cutting-edge solution that transforms how you handle your links. Elevate your online presence with our next-gen platform.
+                                Experience the cutting-edge solution that transforms how you handle your projects. Elevate your online presence with our next-gen platform.
                             </p>
                             <div className="mt-6">
                                 <Button>
